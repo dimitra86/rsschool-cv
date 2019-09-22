@@ -1,0 +1,17 @@
+div {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+hr {
+    color: #eaecef;
+}
+
+img {
+    float: right;
+    margin: 7px 0 7px 7px;
+}
