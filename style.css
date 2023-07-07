@@ -11,7 +11,17 @@ hr {
     color: #eaecef;
 }
 
-img {
+.foto {
     float: right;
     margin: 7px 0 7px 7px;
+    width: 300px;
+}
+
+footer img{
+    height: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content:space-evenly;
 }
