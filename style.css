@@ -1,27 +1,46 @@
-div {
-    width: 1024px;
-    margin: 0 auto;
+html {
+  scroll-behavior: smooth;
 }
-
 body {
-    font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
+  width: 1024px;
+  margin: 0 auto;
 }
 
 hr {
-    color: #eaecef;
+  color: #eaecef;
 }
 
 .foto {
-    float: right;
-    margin: 7px 0 7px 7px;
-    width: 300px;
+  float: right;
+  margin: 7px 0 7px 7px;
+  width: 300px;
 }
 
-footer img{
-    height: 30px;
+footer img {
+  height: 30px;
 }
 
-footer{
-    display: flex;
-    justify-content:space-evenly;
+footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
 }
